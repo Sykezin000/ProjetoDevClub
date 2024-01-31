@@ -1,0 +1,234 @@
+<!DOCTYPE html> <!-- Define a versão do HTML(HTML5)-->
+
+<html lang="pt-br"><!-- Define que é um arquivo HTML-->
+
+<head><!--Parte não visivel do site, Configuração do site-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Pagina</title>
+
+</head>
+<body><!--Parte Visivel do Site-->
+ 
+ <h1>Meu Titulo</h1>
+    <p>ola Tudo Bem Com Voçe?</p>
+ <button>Clique aqui</button>
+ <input type="text"/>
+ <img>
+<br>
+    <a href="https://www.instagram.com/thi_sykes2304?igsh=MW14aGdsdWJqc3QwMA==" target="_blank">Me siga no instagram</a>
+<br>
+    <a href="mailto:thiago08439@gmail.com">Me envie um email</a>
+<br>
+    <a href="tel:+5511992382954">Meu Cel</a>
+<br>
+
+<h2> Lista De livros </h2>
+
+<ul> 
+    <li>O Homem mais <span>Rico</span> da babilonia</li>
+    <li> Quem pensa enriquece </li>
+    <li> Pai Rico e Pai Pobre</li>
+</ul>
+
+<table cellpading="10" bordercolor="gray" border="2">
+<tr>
+    <th>Tipo</th>
+    <th>Valor</th>
+    <th>Data</th>
+</tr>
+
+<tr>
+    <td>Alimentação</td>
+    <td>R$ 40,00</td>
+    <td>21/12/2023</td>
+</tr>
+
+<tr>
+   <td>Lazer</td>
+   <td>R$ 200,00</td>
+   <td>25/12/2023</td> 
+</tr>
+
+<tr>
+    <td>Gastos em casa</td>
+    <td>R$ 1000,00</td>
+    <td>30/12/2023</td>
+</tr>
+
+</table>
+
+<iframe 
+    width="560" 
+    height="315" 
+    src="https://www.youtube.com/embed/PbWFpzi8C94?si=NObqa1CfMUMu7Nva" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen>
+</iframe>
+
+
+
+
+
+
+<h2>Qual Genero de Jogos é Seu favorito?</h2>
+<br>
+
+
+    <label for="Ação">Ação</label>
+    <input id="Ação" type="radio" name="Genero"/>
+<br>
+    <label for="Aventura">Aventura</label>
+    <input id="Aventura" type="radio" name="Genero">
+<br>
+
+    <label for="Terror">Terror</label>
+    <input id="Terror" type="radio" name="Genero"/>                                                         
+
+   
+<br>
+
+
+    <label for="RPG">RPG</label>
+    <input id="RPG" type="radio" name="Genero"/> 
+
+
+
+
+
+<form action="" method="get" enctype="multipart/form-data">
+   
+   <h1>Preencha seus dados</h1>
+
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" required>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    
+    <button type="submit">Enviar</button>
+     <button type="reset">Resetar</button>
+
+<button type="button" disabled > lol </button>
+
+</form>
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+<!--ANOTAÇOES HTML IMPORTANTES-->
+
+<!-- Tag's
+-Abertura  => Ex: <p>
+-Fechamento => Ex:</p> 
+-Conteúdo
+-Parametros
+
+-Tags sempre com letra minucula
+
+-Elementos com conteudo X Elementos sem conteudo-->
+
+<!--SEO - Search Engine Optmization-->
+
+<!-- Link's 
+
+<a (Tag para identificar um link)  href="link",  Target="_blank"(Abre em outra aba)>  <a/>-->
+
+    <!-- Listas 
+    <ol> (Lista Ordenada)
+    <li> (itens da lista),(Sempre dentro da ol/ul)
+    <ul> (Lista não ordenada)        -->
+
+    <!-- Elementos Estruturais
+    
+<div> </div>(caixa)
+
+<Span> (usado pra estilizar uma palavra ou texto)--> 
+    
+    
+    <!--Imagens No html
+    <img src="Link Da imagem" Alt="Texto na imagen (caso a imagem n carregue.)"
+    height=(altura)
+    width=(Largura) >-->  
+    
+    <!--Tabelas
+    <table>(tabela)
+    <tr>(estrutura)
+    <td>(itens Da Tabela)
+        
+   Na Tag <table> Pode se Colocar parametros Ex: Border,Cellpading e Bordercolor -->
+
+   <!--Videos Em HTML
+    
+    <video>(pode se colocar parametros para as configuraçoes de video Ex: Controls,ControlsList="nodownload",autoplay,muted)
+    -Pode se usar parametros de width e height para ajustar atura e largura do video
+
+    <source>(tag para procurar e adicionar o video tbm compativel com outros formatos de video Ex:mp4,mkv,mov)
+    -Pode se usar o parametro src= para dicionar videos na tag    
+   --> 
+
+   <!--!Frame 
+
+<!frame> Tag que permite colocar um site dentro de outro site
+-Tambem pode ter a altura e largura ajustadas(width e height)
+-->
+
+   
+<!--Input 
+
+<input>Tag Usada para criar um campode formulario com informaçoes Ex:
+-texto
+-numero
+-email
+-senha 
+
+-Pode ser usado parametros para configurar e dizer qual é qual Ex:
+for=
+id=
+autofocus
+
+-Podese escolher o tipo de input pelo parametro "Type" Ex:
+-Button
+-Checkbox
+-Password
+-email
+-number , etc 
+
+
+
+
+
+
+--> 
+
+<!--Forms
+- Capturar dados de entrada
+- Input -> entrada 
+
+
+ Action -> Define para qual url será enviado dados, vazio envia para a mesma url
+ Method
+   - Get
+   - Post-->
+
+   <!--HTML Semantico
+
+<article>- Utilizado para Cria um artigo ou adiciona lo em seu site 
+<aside> - Utilizado quando precisamos criar um conteúdo de apoio/adicional ao conteúdo principal;
+<details>
+<figcaption>
+<figure> é uma marcação de uso específico para a inserção de uma figura;
+<footer> - Representamos o rodapé de um documento, como a área presente no final de uma página web.
+<header> - Utilizamos para representar o cabeçalho de um documento ou seção declarado no HTML. Nele podemos inserir elementos de <h1> a <h6>;
+<main> - Especificamos o conteúdo principal e, consequentemente, de maior relevância dentro da página; 
+<nav> - Utilizamos quando precisamos representar um agrupamento de links de navegação, que, por sua vez, são criados com os elementos <ul>, <li> e <a>;-->

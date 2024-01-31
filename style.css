@@ -1,0 +1,98 @@
+
+
+
+
+
+#titulo{
+
+    color: blueviolet; /* obrigatorio ponto e virgula*/
+    background:  black;
+    width: 500px;
+    height: 500px;
+    font-size: 2em;
+}
+
+
+
+#lista{
+
+    color: aqua;
+    font-size: 30px ;
+    width: 250px;
+    height: 250px;
+    font-size: 2rem;
+}
+
+    .lista-metas{
+        color: brown;
+        background:white;
+    font-size: 2rem;
+        
+    }
+
+    .link{
+       color: orange;
+       width: 2em;
+       height: 100px; 
+       font-size: 2rem;
+    }
+
+    .outro-titulo{
+
+       background-color: antiquewhite;
+       color: crimson;
+       width: 500px;
+       height: 500px;
+       font-size: 2em; 
+    }
+
+    .outra-meta{
+      font-size: 2em;
+      color: wheat;
+      font-family: 'Roboto', sans-serif;
+      font-weight: bold;
+    }
+    
+
+       
+        
+        
+        
+        
+    
+
+
+
+
+
+
+/*  CSS  
+    => folha de estilo em cascata
+    
+    RED
+    GREEN
+    BLUE    
+    
+    HEXADECIMAL
+    
+    DECIMAL(10)  => 0,1,2,3,4,5,6,7,8,9,10,11
+    HEXACIMAL(16) =>0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F, 
+    
+    
+    UNIDADES DE MEDIDAS
+
+    -> ABSOLUTAS
+      px(pixels) 1/100 polegada 0,254m
+      in(inches/polegadas)
+      cm/mm (centimetro/milimetro)
+
+    ->
+    RELATIVAS
+      % Calcula o tamanho relativo ao elemento
+      vw (view width) 1vw é 1% da largura da janela do navegador
+      vh (view height) 1vh é 1% da altura da janela do navegador
+      em é uma unidade relativa ao elemento 
+      rem é uma unidade relativa ao elemento raiz 
+    
+    
+    */
